@@ -1,0 +1,19 @@
+** Profile: "LowpassButterworth-ACSweep"  [ c:\users\mcarberry\documents\github\filter_testing\cadence\filtertests\filtertests-PSpiceFiles\LowpassButterworth\ACSweep.sim ] 
+
+** Creating circuit file "ACSweep.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\mcarberry\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1000 10Meg 100Meg
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\LowpassButterworth.net" 
+
+
+.END

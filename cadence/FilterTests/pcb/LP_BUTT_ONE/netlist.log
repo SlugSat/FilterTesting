@@ -1,0 +1,10 @@
+{ Using PSTWRITER 17.2.0 d001Feb-22-2017 at 16:10:49 }
+
+#1 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R4: BandPassButt_Type1_Pspice, BP_BUTT_SIM (5.53, 1.40) .
+#2 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance R0: BandPassButt_Type1_Pspice, BP_BUTT_SIM (3.36, 1.16) .
+#3 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C1: BandPassButt_Type1_Pspice, BP_BUTT_SIM (4.06, 1.16) .
+#4 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C2: BandPassButt_Type1_Pspice, BP_BUTT_SIM (4.31, 1.44) .
+#5 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C3: BandPassButt_Type1_Pspice, BP_BUTT_SIM (5.36, 1.16) .
+#6 INFO(ORCAP-36107):  PCB Editor does not support Dots(.), Forward Slash(/) and White space in footprint names. The supported characters include Alphabets, Numerics, Underscore(_) and Hyphen(-).
+
+#7 ERROR(ORCAP-36018): Aborting Netlisting... Please correct the above errors and retry.

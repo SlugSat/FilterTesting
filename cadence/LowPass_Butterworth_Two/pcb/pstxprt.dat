@@ -1,0 +1,60 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Feb-22-2017 at 17:24:34 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='LOWPASS_BUTTERWORTH_TWO';
+ POST_TIME='Mar  2 2016 00:37:24';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_SMC0805_109.8PF':;
+
+SECTION_NUMBER 1
+ '@LOWPASS_BUTTERWORTH_TWO.SCHEMATIC1(SCH_1):INS2690@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@lowpass_butterworth_two.schematic1(sch_1):ins2690@analog.\c.normal\(chips)',
+ P_PATH='@lowpass_butterworth_two.schematic1(sch_1):page1_ins2690@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_SMC0805_109.8PF':;
+
+SECTION_NUMBER 1
+ '@LOWPASS_BUTTERWORTH_TWO.SCHEMATIC1(SCH_1):INS2706@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@lowpass_butterworth_two.schematic1(sch_1):ins2706@analog.\c.normal\(chips)',
+ P_PATH='@lowpass_butterworth_two.schematic1(sch_1):page1_ins2706@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CR1 'COAX RECEPTACLE_MOLEX_SMA_COAX':;
+
+SECTION_NUMBER 1
+ '@LOWPASS_BUTTERWORTH_TWO.SCHEMATIC1(SCH_1):INS2592@CONNECTOR.COAX RECEPTACLE.NORMAL(CHIPS)':
+ C_PATH='@lowpass_butterworth_two.schematic1(sch_1):ins2592@connector.\coax receptacle.normal\(chips)',
+ P_PATH='@lowpass_butterworth_two.schematic1(sch_1):page1_ins2592@connector.\coax receptacle.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CR2 'COAX RECEPTACLE_MOLEX_SMA_COAX':;
+
+SECTION_NUMBER 1
+ '@LOWPASS_BUTTERWORTH_TWO.SCHEMATIC1(SCH_1):INS2610@CONNECTOR.COAX RECEPTACLE.NORMAL(CHIPS)':
+ C_PATH='@lowpass_butterworth_two.schematic1(sch_1):ins2610@connector.\coax receptacle.normal\(chips)',
+ P_PATH='@lowpass_butterworth_two.schematic1(sch_1):page1_ins2610@connector.\coax receptacle.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'L_SML0805_0.549UH':;
+
+SECTION_NUMBER 1
+ '@LOWPASS_BUTTERWORTH_TWO.SCHEMATIC1(SCH_1):INS2640@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@lowpass_butterworth_two.schematic1(sch_1):ins2640@analog.\l.normal\(chips)',
+ P_PATH='@lowpass_butterworth_two.schematic1(sch_1):page1_ins2640@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

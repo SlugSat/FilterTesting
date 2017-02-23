@@ -1,0 +1,90 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Feb-22-2017 at 17:26:09 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='BANDPASS_BUTTERWORTH';
+ POST_TIME='Mar  2 2016 00:37:24';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_SMC0805_5.30PF':;
+
+SECTION_NUMBER 1
+ '@BANDPASS_BUTTERWORTH.SCHEMATIC1(SCH_1):INS3400@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@bandpass_butterworth.schematic1(sch_1):ins3400@analog.\c.normal\(chips)',
+ P_PATH='@bandpass_butterworth.schematic1(sch_1):page1_ins3400@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_SMC0805_4.55NF':;
+
+SECTION_NUMBER 1
+ '@BANDPASS_BUTTERWORTH.SCHEMATIC1(SCH_1):INS3552@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@bandpass_butterworth.schematic1(sch_1):ins3552@analog.\c.normal\(chips)',
+ P_PATH='@bandpass_butterworth.schematic1(sch_1):page1_ins3552@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_SMC0805_5.30PF':;
+
+SECTION_NUMBER 1
+ '@BANDPASS_BUTTERWORTH.SCHEMATIC1(SCH_1):INS3416@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@bandpass_butterworth.schematic1(sch_1):ins3416@analog.\c.normal\(chips)',
+ P_PATH='@bandpass_butterworth.schematic1(sch_1):page1_ins3416@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CR1 'COAX RECEPTACLE_MOLEX_SMA_COAX':;
+
+SECTION_NUMBER 1
+ '@BANDPASS_BUTTERWORTH.SCHEMATIC1(SCH_1):INS3382@CONNECTOR.COAX RECEPTACLE.NORMAL(CHIPS)':
+ C_PATH='@bandpass_butterworth.schematic1(sch_1):ins3382@connector.\coax receptacle.normal\(chips)',
+ P_PATH='@bandpass_butterworth.schematic1(sch_1):page1_ins3382@connector.\coax receptacle.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CR2 'COAX RECEPTACLE_MOLEX_SMA_COAX':;
+
+SECTION_NUMBER 1
+ '@BANDPASS_BUTTERWORTH.SCHEMATIC1(SCH_1):INS3432@CONNECTOR.COAX RECEPTACLE.NORMAL(CHIPS)':
+ C_PATH='@bandpass_butterworth.schematic1(sch_1):ins3432@connector.\coax receptacle.normal\(chips)',
+ P_PATH='@bandpass_butterworth.schematic1(sch_1):page1_ins3432@connector.\coax receptacle.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'L_SML0805_5.68UH':;
+
+SECTION_NUMBER 1
+ '@BANDPASS_BUTTERWORTH.SCHEMATIC1(SCH_1):INS3454@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@bandpass_butterworth.schematic1(sch_1):ins3454@analog.\l.normal\(chips)',
+ P_PATH='@bandpass_butterworth.schematic1(sch_1):page1_ins3454@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'L_SML0805_6.63NH':;
+
+SECTION_NUMBER 1
+ '@BANDPASS_BUTTERWORTH.SCHEMATIC1(SCH_1):INS3524@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@bandpass_butterworth.schematic1(sch_1):ins3524@analog.\l.normal\(chips)',
+ P_PATH='@bandpass_butterworth.schematic1(sch_1):page1_ins3524@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L4 'L_SML0805_5.68UH':;
+
+SECTION_NUMBER 1
+ '@BANDPASS_BUTTERWORTH.SCHEMATIC1(SCH_1):INS3496@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@bandpass_butterworth.schematic1(sch_1):ins3496@analog.\l.normal\(chips)',
+ P_PATH='@bandpass_butterworth.schematic1(sch_1):page1_ins3496@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

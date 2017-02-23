@@ -1,0 +1,24 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : LowPassButterworthOne.brd                     )
+(    Software Version : 17.2S002                                      )
+(    Date/Time        : Wed Feb 22 16:23:29 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  CR2 / COAX RECEPTACLE_MOLEX_SMA_COAX / MOLEX_SMA at (15008.0 11178.0)
+         Placed symbol:  CR1 / COAX RECEPTACLE_MOLEX_SMA_COAX / MOLEX_SMA at (15216.0 11178.0)
+         Placed symbol:  C2 / C_SMC0805_219.5PF / SMC0805 at (15465.0 11048.5)
+         Placed symbol:  L1 / L_SML0805_0.274UH / SML0805 at (15637.0 11051.0)
+         Placed symbol:  L3 / L_SML0805_0.274UH / SML0805 at (15801.0 11051.0)
+
+
+Placed 5 of 5 applicable (5 total) symbols.
+
+-----------------------------------------------------------------------
+

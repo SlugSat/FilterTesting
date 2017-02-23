@@ -1,0 +1,120 @@
+\t (00:00:02) allegro 17.2 S002 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Wed Feb 22 17:01:37 2017
+\t (00:00:02)         Host=PANOPTICON User=mcarberry Pid=11860 CPUs=4
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\mcarberry\Documents\GitHub\filter_testing\cadence\LowPass_Butterworth_One\pcb\LowPassButterworthOne.brd
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: C:/Users/mcarberry/Documents/GitHub/filter_testing/cadence/LowPass_Butterworth_One/pcb/LowPassButterworthOne.brd
+\i (00:00:04) trapsize 179
+\i (00:00:04) trapsize 184
+\i (00:00:04) trapsize 185
+\i (00:00:05) shapeedit 
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in 702.5 832.1
+\i (00:00:07) trapsize 93
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in 702.5 832.1
+\i (00:00:07) trapsize 46
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 785.9 854.4
+\i (00:00:07) trapsize 93
+\i (00:00:08) drag_start grid 1329.2 1249.3
+\i (00:00:08) drag_stop 1998.6 1002.7
+\i (00:00:09) pick grid 1729.7 1069.5
+\t (00:00:09) last pick:  1725.0 1075.0
+\i (00:00:09) pick grid dbl 1729.7 1069.5
+\t (00:00:09) last pick:  1725.0 1075.0
+\i (00:00:14) setwindow form.mini
+\i (00:00:14) FORM mini class BOARD GEOMETRY 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) drag_start grid 1542.4 1232.6
+\i (00:00:15) drag_stop 2037.5 863.7
+\i (00:00:15) pick grid 1722.3 1021.3
+\t (00:00:15) last pick:  1725.0 1025.0
+\i (00:00:16) drag_start grid 1726.0 1013.8
+\i (00:00:16) drag_stop 1570.2 1052.8
+\i (00:00:24) setwindow form.mini
+\i (00:00:24) FORM mini subclass DESIGN_OUTLINE 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) drag_start grid 1505.3 1292.0
+\i (00:00:24) drag_stop 1878.0 891.5
+\i (00:00:26) prepopup 1720.4 999.0
+\i (00:00:28) pick grid 886.0 1271.6
+\t (00:00:28) last pick:  875.0 1275.0
+\i (00:00:30) generaledit 
+\i (00:00:30) drag_start grid 678.4 1267.9
+\i (00:00:31) drag_stop 1707.5 943.4
+\i (00:00:32) drag_start grid 1570.2 1251.2
+\i (00:00:32) drag_stop 2022.7 952.7
+\i (00:00:43) param in 
+\i (00:00:45) setwindow form.parm_in
+\i (00:00:45) FORM parm_in browse  
+\i (00:00:54) fillin "C:\Users\mcarberry\Documents\GitHub\filter_testing\cadence\Lib\Local\parameter\2_layer_rev1.prm"
+\i (00:00:55) FORM parm_in execute  
+\t (00:00:55) Starting Importing parameter file...
+\t (00:00:56) Opening existing design...
+\i (00:00:56) setwindow pcb
+\i (00:00:56) trapsize 93
+\t (00:00:57) Parameter file read completed.
+\i (00:01:00) setwindow form.parm_in
+\i (00:01:00) FORM parm_in cancel  
+\i (00:01:00) setwindow pcb
+\i (00:01:00) generaledit 
+\i (00:01:03) setwindow form.mini
+\i (00:01:03) FORM mini class BOARD GEOMETRY 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) drag_start grid 1362.6 1121.4
+\i (00:01:07) drag_stop 1429.3 1280.9
+\i (00:01:08) drag_start grid 1510.9 1240.1
+\i (00:01:08) drag_stop 2121.0 969.3
+\i (00:01:14) generaledit 
+\i (00:01:15) drag_start grid 1004.7 1227.1
+\i (00:01:15) roam x 96
+\i (00:01:15) roam x 16
+\i (00:01:15) roam x 32
+\i (00:01:15) roam x 16
+\i (00:01:15) drag_stop 2619.6 685.6
+\i (00:01:18) setwindow form.mini
+\i (00:01:18) FORM mini subclass DESIGN_OUTLINE 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) drag_start grid 1527.4 1293.8
+\i (00:01:19) drag_stop 1966.9 980.5
+\i (00:01:20) drag_start grid 1809.3 1010.1
+\i (00:01:20) drag_stop 1432.9 1160.3
+\i (00:01:20) drag_start grid 1434.7 1245.6
+\i (00:01:21) drag_stop 2259.8 802.5
+\i (00:01:24) setwindow form.mini
+\i (00:01:24) FORM mini subclass NCROUTE_PATH 
+\i (00:01:24) setwindow pcb
+\i (00:01:24) drag_start grid 1660.9 1208.5
+\i (00:01:25) drag_stop 2148.6 895.2
+\i (00:01:27) setwindow form.mini
+\i (00:01:27) FORM mini subclass DIMENSION 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) drag_start grid 1518.1 1241.9
+\i (00:01:27) drag_stop 2016.9 934.1
+\i (00:01:29) setwindow form.mini
+\i (00:01:29) FORM mini subclass DESIGN_OUTLINE 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) drag_start grid 1516.3 1204.8
+\i (00:01:30) drag_stop 2007.7 906.3
+\i (00:01:34) setwindow form.mini
+\i (00:01:34) FORM mini subcolor 0 
+\i (00:01:34) FORM mini subcolor 1 
+\i (00:01:35) setwindow pcb
+\i (00:01:35) pick grid 2102.2 1123.2
+\t (00:01:35) last pick:  2100.0 1125.0
+\e (00:01:35) Command not found: ~Z
+\e (00:01:37) Command not found: ~Z
+\i (00:01:39) setwindow form.mini
+\i (00:01:39) FORM mini subcolor 0 
+\i (00:01:39) FORM mini subcolor 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) exit 
+\e (00:01:53) Do you want to save the changes you made to C:/Users/mcarberry/Documents/GitHub/filter_testing/cadence/LowPass_Butterworth_One/pcb/LowPassButterworthOne.brd?
+\i (00:01:55) fillin no 
+\t (00:01:55)     Journal end - Wed Feb 22 17:03:30 2017

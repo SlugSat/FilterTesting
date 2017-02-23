@@ -1,0 +1,88 @@
+
+**** 02/22/17 10:45:48 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "LowpassButterworth-ACSweep"  [ c:\users\mcarberry\documents\github\filter_testing\cadence\filtertests\filtertests-PSpic
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ACSweep.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\mcarberry\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1000 10Meg 100Meg
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\LowpassButterworth.net" 
+
+
+
+**** INCLUDING LowpassButterworth.net ****
+* source FILTERTESTS
+L_L3         N01644 N01508  0.274uH  
+L_L1         N01508 N014601  0.274uH  
+C_C2         0 N01508  219.5pF  TC=0,0 
+R_R0         N01702 N014601  50 TC=0,0 
+R_R4         0 N01644  50 TC=0,0 
+V_V1         N01702 0 DC 0Vdc AC 1Vac 
+
+**** RESUMING ACSweep.cir ****
+.END
+
+**** 02/22/17 10:45:48 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "LowpassButterworth-ACSweep"  [ c:\users\mcarberry\documents\github\filter_testing\cadence\filtertests\filtertests-PSpic
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N01508)    0.0000 (N01644)    0.0000 (N01702)    0.0000 (N014601)    0.0000    
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/22/17 10:45:48 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "LowpassButterworth-ACSweep"  [ c:\users\mcarberry\documents\github\filter_testing\cadence\filtertests\filtertests-PSpic
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

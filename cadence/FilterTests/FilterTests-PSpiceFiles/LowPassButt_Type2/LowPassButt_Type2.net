@@ -1,0 +1,7 @@
+* source FILTERTESTS
+R_R0         N01702 N01963  50 TC=0,0 
+C_C1         0 N01963  109.8pF  TC=0,0 
+L_L2         N01508 N01963  0.549uH  
+V_V1         N01702 0 DC 0Vdc AC 1Vac 
+R_R4         0 N01508  50 TC=0,0 
+C_C3         0 N01508  109.8pF  TC=0,0 

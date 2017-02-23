@@ -1,0 +1,74 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../cadence/LowPass_Butterworth_Two/pcb/LowPassButterworthTwo.brd         |
+|                                                    Wed Feb 22 18:09:01 2017  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  0            pins ADDED TO this new net
+                                 C1.1           C3.1           CR1.1          
+                                 CR1.3          CR2.1          CR2.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02630       pins ADDED TO this new net
+                                 C1.2           CR1.2          L2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02662       pins ADDED TO this new net
+                                 C3.2           CR2.2          L2.1           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../cadence/LowPass_Butterworth_Two/pcb/LowPassButterworthTwo.brd         |
+|                                                    Wed Feb 22 18:09:01 2017  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ COAX RECEPTACLE_MOLEX_SMA_COAX
+ C_SMC0805_109.8PF
+ L_SML0805_0.549UH
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../cadence/LowPass_Butterworth_Two/pcb/LowPassButterworthTwo.brd         |
+|                                                    Wed Feb 22 18:09:01 2017  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_SMC0805_109.8PF     
+ C3                  C_SMC0805_109.8PF     
+ CR1                 COAX RECEPTACLE_MOLEX_SMA_COAX 
+ CR2                 COAX RECEPTACLE_MOLEX_SMA_COAX 
+ L2                  L_SML0805_0.549UH     
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../cadence/LowPass_Butterworth_Two/pcb/LowPassButterworthTwo.brd         |
+|                                                    Wed Feb 22 18:09:01 2017  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ CR1.3                          PRIM_FILE      .\pstchip.dat
+ CR2.3                          PRIM_FILE      .\pstchip.dat
+ L2.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      12                                        |
+|       Comp definitions added:       3                                        |
+|       Components added      :       5                                        |
+|       Slot property added   :       5                                        |
+|                                                                              |
+|   Total ECO changes reported:      25                                        |
+|------------------------------------------------------------------------------|

@@ -1,0 +1,81 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.2.0 d001Feb-22-2017 at 17:26:09}
+primitive 'C_SMC0805_5.30PF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='SMC0805';
+    VALUE='5.30pF';
+  end_body;
+end_primitive;
+primitive 'C_SMC0805_4.55NF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='SMC0805';
+    VALUE='4.55nF';
+  end_body;
+end_primitive;
+primitive 'COAX RECEPTACLE_MOLEX_SMA_COAX';
+  pin
+    'CENTER 1':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'SHIELD':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'SHIELD 2':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='COAX RECEPTACLE';
+    JEDEC_TYPE='MOLEX_SMA';
+    VALUE='COAX RECEPTACLE';
+  end_body;
+end_primitive;
+primitive 'L_SML0805_5.68UH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='L';
+    JEDEC_TYPE='SML0805';
+    VALUE='5.68uH';
+  end_body;
+end_primitive;
+primitive 'L_SML0805_6.63NH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='L';
+    JEDEC_TYPE='SML0805';
+    VALUE='6.63nH';
+  end_body;
+end_primitive;
+END.

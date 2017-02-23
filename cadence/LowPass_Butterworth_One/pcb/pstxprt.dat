@@ -1,0 +1,60 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Feb-22-2017 at 16:18:05 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='LOWPASS_BUTTERWORTH_ONE';
+ POST_TIME='Mar  2 2016 00:37:24';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C2 'C_SMC0805_219.5PF':;
+
+SECTION_NUMBER 1
+ '@LOWPASS_BUTTERWORTH_ONE.LOWPASSFILTER(SCH_1):INS3292@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@lowpass_butterworth_one.lowpassfilter(sch_1):ins3292@analog.\c.normal\(chips)',
+ P_PATH='@lowpass_butterworth_one.lowpassfilter(sch_1):page1_ins3292@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CR1 'COAX RECEPTACLE_MOLEX_SMA_COAX':;
+
+SECTION_NUMBER 1
+ '@LOWPASS_BUTTERWORTH_ONE.LOWPASSFILTER(SCH_1):INS3312@CONNECTOR.COAX RECEPTACLE.NORMAL(CHIPS)':
+ C_PATH='@lowpass_butterworth_one.lowpassfilter(sch_1):ins3312@connector.\coax receptacle.normal\(chips)',
+ P_PATH='@lowpass_butterworth_one.lowpassfilter(sch_1):page1_ins3312@connector.\coax receptacle.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ CR2 'COAX RECEPTACLE_MOLEX_SMA_COAX':;
+
+SECTION_NUMBER 1
+ '@LOWPASS_BUTTERWORTH_ONE.LOWPASSFILTER(SCH_1):INS3244@CONNECTOR.COAX RECEPTACLE.NORMAL(CHIPS)':
+ C_PATH='@lowpass_butterworth_one.lowpassfilter(sch_1):ins3244@connector.\coax receptacle.normal\(chips)',
+ P_PATH='@lowpass_butterworth_one.lowpassfilter(sch_1):page1_ins3244@connector.\coax receptacle.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'L_SML0805_0.274UH':;
+
+SECTION_NUMBER 1
+ '@LOWPASS_BUTTERWORTH_ONE.LOWPASSFILTER(SCH_1):INS3268@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@lowpass_butterworth_one.lowpassfilter(sch_1):ins3268@analog.\l.normal\(chips)',
+ P_PATH='@lowpass_butterworth_one.lowpassfilter(sch_1):page1_ins3268@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'L_SML0805_0.274UH':;
+
+SECTION_NUMBER 1
+ '@LOWPASS_BUTTERWORTH_ONE.LOWPASSFILTER(SCH_1):INS3336@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@lowpass_butterworth_one.lowpassfilter(sch_1):ins3336@analog.\l.normal\(chips)',
+ P_PATH='@lowpass_butterworth_one.lowpassfilter(sch_1):page1_ins3336@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.
