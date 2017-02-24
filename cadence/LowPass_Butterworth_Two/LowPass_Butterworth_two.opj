@@ -42,12 +42,19 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\LowPass_Butterworth_Two\lowpass_butterworth_two.dsn")
+      (Path "Design Resources"
+         "C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\LowPass_Butterworth_Two\lowpass_butterworth_two.dsn"
+         "SCHEMATIC1")
       (Path "Outputs")
       (Select "Design Resources"
-         "C:\USERS\MCARBERRY\DOCUMENTS\GITHUB\FILTER_TESTING\CADENCE\LowPass_Butterworth_Two\lowpass_butterworth_two.dsn"))
+         "C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\LowPass_Butterworth_Two\lowpass_butterworth_two.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 336"))
-      (Tab 0))))
+      (Tab 0)))
+  (MPSSessionName "mcarberry"))
