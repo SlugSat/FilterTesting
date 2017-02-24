@@ -1,0 +1,16 @@
+* source FILTERTESTS
+V_V1         N02229 0 DC 0Vdc AC 1Vac 
+C_C3         N02285 N026650 C_C3 5.30pF  TC=0,0 
+.model        C_C3 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+L_L3         N02751 0 L_L3 6.63nH  
+.model        l_L3 IND L=1 DEV=5% TC1=0 TC2=0 IL1=0 IL2=0
+R_R0         N02229 N022170  50 TC=0,0 
+R_R4         0 N02285  50 TC=0,0 
+C_C1         N02751 N025100 C_C1 5.30pF  TC=0,0 
+.model        C_C1 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+C_C2         0 N02751 C_C2 4.55nF  TC=0,0 
+.model        C_C2 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+L_L1         N025100 N022170 L_L1 5.68uH  
+.model        l_L1 IND L=1 DEV=5% TC1=0 TC2=0 IL1=0 IL2=0
+L_L4         N026650 N02751 L_L4 5.68uH  
+.model        l_L4 IND L=1 DEV=5% TC1=0 TC2=0 IL1=0 IL2=0

@@ -45,6 +45,15 @@
     (File ".\filtertests-pspicefiles\lowpassbutt_type2\lowpassbutt_type2.net"
       (Type "Report"))
     (File ".\filtertests-pspicefiles\bandpassbutt_type1\bandpassbutt_type1.net"
+      (Type "Report"))
+    (File
+       ".\filtertests-pspicefiles\lowpassbutt_type1_pspice\lowpassbutt_type1_pspice.net"
+      (Type "Report"))
+    (File
+       ".\filtertests-pspicefiles\lowpassbutt_type2_pspice\lowpassbutt_type2_pspice.net"
+      (Type "Report"))
+    (File
+       ".\filtertests-pspicefiles\bandpassbutt_type1_pspice\bandpassbutt_type1_pspice.net"
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
@@ -56,12 +65,12 @@
          ".\filtertests-pspicefiles\lowpassbutt_type2_pspice\bodeplot.sim"
         (DisplayName "LowPassButt_Type2_Pspice-BodePlot")
         (Type "PSpice Profile"))
-      (ActiveProfile
-         ".\filtertests-pspicefiles\bandpassbutt_type1_pspice\bodeplot.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\filtertests-pspicefiles\bandpassbutt_type1_pspice\bodeplot.sim"
         (DisplayName "BandPassButt_Type1_Pspice-BodePlot")
-        (Type "PSpice Profile")))
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\filtertests-pspicefiles\bandpassbutt_type1_pspice\bodeplot.sim"))
     (Folder "Model Libraries")
     (Folder "Stimulus Files")
     (Folder "Include Files"))
@@ -113,16 +122,23 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "c:\users\mcarberry\documents\github\filter_testing\cadence\filtertests\filtertests.dsn")
+         "C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\filtertests.dsn")
       (Path "Design Resources"
-         "c:\users\mcarberry\documents\github\filter_testing\cadence\filtertests\filtertests.dsn"
-         "BandPassButt_Type1")
+         "C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\filtertests.dsn"
+         "BandPassButt_Type1_Pspice")
       (Path "Design Resources"
-         "c:\users\mcarberry\documents\github\filter_testing\cadence\filtertests\filtertests.dsn"
+         "C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\filtertests.dsn"
+         "LowPassButt_Type1_Pspice")
+      (Path "Design Resources"
+         "C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\filtertests.dsn"
          "LowPassButt_Type2")
+      (Path "Design Resources"
+         "C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\filtertests.dsn"
+         "LowPassButt_Type2_Pspice")
+      (Path "Outputs")
       (Select "Design Resources"
-         "c:\users\mcarberry\documents\github\filter_testing\cadence\filtertests\filtertests.dsn"
-         "BandPassButt_Type1" "BP_BUTT"))
+         "C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\filtertests.dsn"
+         "BandPassButt_Type1_Pspice" "BP_BUTT_SIM"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -132,21 +148,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1120 104 479")
-        (Scroll "0 0")
-        (Zoom "100"))
+        (Placement "44 2 3 -1 -1 -8 -31 156 1491 156 487")
+        (Scroll "-42 0")
+        (Zoom "100")
+        (Occurrence "/"))
       (Path
-         "C:\USERS\MCARBERRY\DOCUMENTS\GITHUB\FILTER_TESTING\CADENCE\FILTERTESTS\FILTERTESTS.DSN")
-      (Schematic "LowPassButt_Type2")
-      (Page "LP_BUTT_TWO"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1042 26 401")
-        (Scroll "209 0")
-        (Zoom "100"))
-      (Path
-         "C:\USERS\MCARBERRY\DOCUMENTS\GITHUB\FILTER_TESTING\CADENCE\FILTERTESTS\FILTERTESTS.DSN")
-      (Schematic "BandPassButt_Type1")
-      (Page "BP_BUTT")))
+         "C:\USERS\MCARBERRY\DOCUMENTS\GITHUB\FILTERTESTING\CADENCE\FILTERTESTS\FILTERTESTS.DSN")
+      (Schematic "BandPassButt_Type1_Pspice")
+      (Page "BP_BUTT_SIM")))
   (ISPCBBASICLICENSE "false"))

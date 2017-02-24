@@ -1,4 +1,4 @@
-** Profile: "LowPassButt_Type2-BodePlot"  [ c:\users\mcarberry\documents\github\filter_testing\cadence\filtertests\filtertests-PSpiceFiles\LowPassButt_Type2\BodePlot.sim ] 
+** Profile: "LowPassButt_Type2_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTests-PSpiceFiles\LowPassButt_Type2_Pspice\BodePlot.sim ] 
 
 ** Creating circuit file "BodePlot.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -13,7 +13,7 @@
 .AC DEC 1000 10Meg 100Meg
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
-.INC "..\LowPassButt_Type2.net" 
+.INC "..\LowPassButt_Type2_Pspice.net" 
 
 
 .END

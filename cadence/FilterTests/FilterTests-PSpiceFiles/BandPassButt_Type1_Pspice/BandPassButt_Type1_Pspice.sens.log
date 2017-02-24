@@ -1,0 +1,210 @@
+*****************************************
+
+******* Analysis Started On:Fri Feb 24 15:39:30 2017
+
+Advance Analyses Project File Name : C:/Users/mcarberry/Documents/GitHub/FilterTesting/cadence/FilterTests/FilterTests-PSpiceFiles/BandPassButt_Type1_Pspice/BandPassButt_Type1_Pspice.$ap
+
+
+Processing analysis specifications
+
+Listing Profiles:
+ - bodeplot.sim
+
+
+Simulation Run: 0 (Nominal Run)
+Param : C3.VALUE  (C_C3.VALUE) = 5.30pF
+Param : L3.VALUE  (L_L3.VALUE) = 6.63nH
+Param : C1.VALUE  (C_C1.VALUE) = 5.30pF
+Param : C2.VALUE  (C_C2.VALUE) = 4.55nF
+Param : L1.VALUE  (L_L1.VALUE) = 5.68uH
+Param : L4.VALUE  (L_L4.VALUE) = 5.68uH
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 29.69355174240858meg
+Specs : Cutoff_Highpass_3dB(V(R4:2)/V(V1:+)) = 28.29746976046666meg
+Specs : Bandwidth_Bandpass_3dB(V(R4:2)/V(V1:+)) = 1.39608198194192meg
+Nominal run completed
+Sensitivity runs underway.....
+
+
+Simulation Run: 1
+Param : C3.VALUE  (C_C3.VALUE) = 5.40600000000000p
+Param : L3.VALUE  (L_L3.VALUE) = 6.63nH
+Param : C1.VALUE  (C_C1.VALUE) = 5.30pF
+Param : C2.VALUE  (C_C2.VALUE) = 4.55nF
+Param : L1.VALUE  (L_L1.VALUE) = 5.68uH
+Param : L4.VALUE  (L_L4.VALUE) = 5.68uH
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 29.64566679153757meg
+Specs : Cutoff_Highpass_3dB(V(R4:2)/V(V1:+)) = 28.25684744828476meg
+Specs : Bandwidth_Bandpass_3dB(V(R4:2)/V(V1:+)) = 1.38881934325280meg
+Sensitivity run: 1 of 6 completed
+
+
+Simulation Run: 2
+Param : C3.VALUE  (C_C3.VALUE) = 5.30pF
+Param : L3.VALUE  (L_L3.VALUE) = 6.76260000000000n
+Param : C1.VALUE  (C_C1.VALUE) = 5.30pF
+Param : C2.VALUE  (C_C2.VALUE) = 4.55nF
+Param : L1.VALUE  (L_L1.VALUE) = 5.68uH
+Param : L4.VALUE  (L_L4.VALUE) = 5.68uH
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 29.50212051628395meg
+Specs : Cutoff_Highpass_3dB(V(R4:2)/V(V1:+)) = 28.10332855215022meg
+Specs : Bandwidth_Bandpass_3dB(V(R4:2)/V(V1:+)) = 1.39879196413372meg
+Sensitivity run: 2 of 6 completed
+
+
+Simulation Run: 3
+Param : C3.VALUE  (C_C3.VALUE) = 5.30pF
+Param : L3.VALUE  (L_L3.VALUE) = 6.63nH
+Param : C1.VALUE  (C_C1.VALUE) = 5.40600000000000p
+Param : C2.VALUE  (C_C2.VALUE) = 4.55nF
+Param : L1.VALUE  (L_L1.VALUE) = 5.68uH
+Param : L4.VALUE  (L_L4.VALUE) = 5.68uH
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 29.64566679153757meg
+Specs : Cutoff_Highpass_3dB(V(R4:2)/V(V1:+)) = 28.25684744828476meg
+Specs : Bandwidth_Bandpass_3dB(V(R4:2)/V(V1:+)) = 1.38881934325281meg
+Sensitivity run: 3 of 6 completed
+
+
+Simulation Run: 4
+Param : C3.VALUE  (C_C3.VALUE) = 5.30pF
+Param : L3.VALUE  (L_L3.VALUE) = 6.63nH
+Param : C1.VALUE  (C_C1.VALUE) = 5.30pF
+Param : C2.VALUE  (C_C2.VALUE) = 4.64100000000000n
+Param : L1.VALUE  (L_L1.VALUE) = 5.68uH
+Param : L4.VALUE  (L_L4.VALUE) = 5.68uH
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 29.48888644763330meg
+Specs : Cutoff_Highpass_3dB(V(R4:2)/V(V1:+)) = 28.11124219828482meg
+Specs : Bandwidth_Bandpass_3dB(V(R4:2)/V(V1:+)) = 1.37764424934848meg
+Sensitivity run: 4 of 6 completed
+
+
+Simulation Run: 5
+Param : C3.VALUE  (C_C3.VALUE) = 5.30pF
+Param : L3.VALUE  (L_L3.VALUE) = 6.63nH
+Param : C1.VALUE  (C_C1.VALUE) = 5.30pF
+Param : C2.VALUE  (C_C2.VALUE) = 4.55nF
+Param : L1.VALUE  (L_L1.VALUE) = 5.79360000000000u
+Param : L4.VALUE  (L_L4.VALUE) = 5.68uH
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 29.64159331848108meg
+Specs : Cutoff_Highpass_3dB(V(R4:2)/V(V1:+)) = 28.25707417042298meg
+Specs : Bandwidth_Bandpass_3dB(V(R4:2)/V(V1:+)) = 1.38451914805810meg
+Sensitivity run: 5 of 6 completed
+
+
+Simulation Run: 6
+Param : C3.VALUE  (C_C3.VALUE) = 5.30pF
+Param : L3.VALUE  (L_L3.VALUE) = 6.63nH
+Param : C1.VALUE  (C_C1.VALUE) = 5.30pF
+Param : C2.VALUE  (C_C2.VALUE) = 4.55nF
+Param : L1.VALUE  (L_L1.VALUE) = 5.68uH
+Param : L4.VALUE  (L_L4.VALUE) = 5.79360000000000u
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 29.64159331848108meg
+Specs : Cutoff_Highpass_3dB(V(R4:2)/V(V1:+)) = 28.25707417042298meg
+Specs : Bandwidth_Bandpass_3dB(V(R4:2)/V(V1:+)) = 1.38451914805810meg
+Sensitivity run: 6 of 6 completed
+Sensitivity runs completed
+Sensitivity bar lengths computed
+Worstcase runs underway.....
+
+
+Simulation Run: 7
+Param : C3.VALUE  (C_C3.VALUE) = 5.56500000000000p
+Param : L3.VALUE  (L_L3.VALUE) = 6.96150000000000n
+Param : C1.VALUE  (C_C1.VALUE) = 5.56500000000000p
+Param : C2.VALUE  (C_C2.VALUE) = 4.77750000000000n
+Param : L1.VALUE  (L_L1.VALUE) = 5.96400000000000u
+Param : L4.VALUE  (L_L4.VALUE) = 5.96400000000000u
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 28.27949671137798meg
+Specs : Cutoff_Highpass_3dB(V(R4:2)/V(V1:+)) = 26.95033230792872meg
+Specs : Bandwidth_Bandpass_3dB(V(R4:2)/V(V1:+)) = 1.32916440344926meg
+Minimum run: 1 of 3 completed
+
+
+Simulation Run: 8
+Param : C3.VALUE  (C_C3.VALUE) = 5.56500000000000p
+Param : L3.VALUE  (L_L3.VALUE) = 6.96150000000000n
+Param : C1.VALUE  (C_C1.VALUE) = 5.56500000000000p
+Param : C2.VALUE  (C_C2.VALUE) = 4.77750000000000n
+Param : L1.VALUE  (L_L1.VALUE) = 5.96400000000000u
+Param : L4.VALUE  (L_L4.VALUE) = 5.96400000000000u
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 28.27949671137798meg
+Specs : Cutoff_Highpass_3dB(V(R4:2)/V(V1:+)) = 26.95033230792872meg
+Specs : Bandwidth_Bandpass_3dB(V(R4:2)/V(V1:+)) = 1.32916440344926meg
+Minimum run: 2 of 3 completed
+
+
+Simulation Run: 9
+Param : C3.VALUE  (C_C3.VALUE) = 5.56500000000000p
+Param : L3.VALUE  (L_L3.VALUE) = 6.29850000000000n
+Param : C1.VALUE  (C_C1.VALUE) = 5.56500000000000p
+Param : C2.VALUE  (C_C2.VALUE) = 4.77750000000000n
+Param : L1.VALUE  (L_L1.VALUE) = 5.96400000000000u
+Param : L4.VALUE  (L_L4.VALUE) = 5.96400000000000u
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 29.33821213764317meg
+Specs : Cutoff_Highpass_3dB(V(R4:2)/V(V1:+)) = 29.14824786108349meg
+Specs : Bandwidth_Bandpass_3dB(V(R4:2)/V(V1:+)) = 189.96427655968071k
+Minimum run: 3 of 3 completed
+Sensitivity minimum runs completed
+
+
+Simulation Run: 10
+Param : C3.VALUE  (C_C3.VALUE) = 5.03500000000000p
+Param : L3.VALUE  (L_L3.VALUE) = 6.29850000000000n
+Param : C1.VALUE  (C_C1.VALUE) = 5.03500000000000p
+Param : C2.VALUE  (C_C2.VALUE) = 4.32250000000000n
+Param : L1.VALUE  (L_L1.VALUE) = 5.39600000000000u
+Param : L4.VALUE  (L_L4.VALUE) = 5.39600000000000u
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 31.25763430353510meg
+Specs : Cutoff_Highpass_3dB(V(R4:2)/V(V1:+)) = 29.78572200892982meg
+Specs : Bandwidth_Bandpass_3dB(V(R4:2)/V(V1:+)) = 1.47191229460528meg
+Maximum run: 1 of 3 completed
+
+
+Simulation Run: 11
+Param : C3.VALUE  (C_C3.VALUE) = 5.03500000000000p
+Param : L3.VALUE  (L_L3.VALUE) = 6.29850000000000n
+Param : C1.VALUE  (C_C1.VALUE) = 5.03500000000000p
+Param : C2.VALUE  (C_C2.VALUE) = 4.32250000000000n
+Param : L1.VALUE  (L_L1.VALUE) = 5.39600000000000u
+Param : L4.VALUE  (L_L4.VALUE) = 5.39600000000000u
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 31.25763430353510meg
+Specs : Cutoff_Highpass_3dB(V(R4:2)/V(V1:+)) = 29.78572200892982meg
+Specs : Bandwidth_Bandpass_3dB(V(R4:2)/V(V1:+)) = 1.47191229460528meg
+Maximum run: 2 of 3 completed
+
+
+Simulation Run: 12
+Param : C3.VALUE  (C_C3.VALUE) = 5.03500000000000p
+Param : L3.VALUE  (L_L3.VALUE) = 6.96150000000000n
+Param : C1.VALUE  (C_C1.VALUE) = 5.03500000000000p
+Param : C2.VALUE  (C_C2.VALUE) = 4.32250000000000n
+Param : L1.VALUE  (L_L1.VALUE) = 5.39600000000000u
+Param : L4.VALUE  (L_L4.VALUE) = 5.39600000000000u
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 28.86545477610142meg
+Specs : Cutoff_Highpass_3dB(V(R4:2)/V(V1:+)) = 28.67394372767812meg
+Specs : Bandwidth_Bandpass_3dB(V(R4:2)/V(V1:+)) = 191.51104842329769k
+Maximum run: 3 of 3 completed
+Sensitivity maximum runs completed
+-------------------- Sensitivity analysis completed --------------------
+Fri Feb 24 15:39:35 2017
+
+Analysis complete
+
+******* Analysis stopped at:Fri Feb 24 15:39:35 2017
+
+Analysis time: 00:00:05
+
+
+End of advanced analysis session

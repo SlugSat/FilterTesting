@@ -41,27 +41,16 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "C:\USERS\MCARBERRY\DOCUMENTS\GITHUB\FILTER_TESTING\CADENCE\LowPass_Butterworth_One\lowpass_butterworth_one.dsn")
+      (Path "Design Resources" ".\lowpass_butterworth_one.dsn")
+      (Path "Design Resources" ".\lowpass_butterworth_one.dsn" "LowPassFilter")
       (Path "Outputs")
-      (Select "Design Resources"
-         "C:\USERS\MCARBERRY\DOCUMENTS\GITHUB\FILTER_TESTING\CADENCE\LowPass_Butterworth_One\lowpass_butterworth_one.dsn"
-         "LowPassFilter"))
+      (Select "Design Resources" ".\lowpass_butterworth_one.dsn"
+         "LowPassFilter" "LP_BUTT_ONE"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 336"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1042 26 401")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MCARBERRY\DOCUMENTS\GITHUB\FILTER_TESTING\CADENCE\LOWPASS_BUTTERWORTH_ONE\LOWPASS_BUTTERWORTH_ONE.DSN")
-      (Schematic "LowPassFilter")
-      (Page "LP_BUTT_ONE")))
-  (ISPCBBASICLICENSE "false"))
+      (Tab 0)))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "mcarberry"))

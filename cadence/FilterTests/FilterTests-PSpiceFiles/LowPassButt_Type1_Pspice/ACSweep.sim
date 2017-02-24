@@ -3,7 +3,7 @@
 @Settings: 2 1
 @General:
 ProfileName= "ACSweep" 
-ProfileFile= "ACSweep.sim" 
+ProfileFile= "acsweep.sim" 
 Connectivity= "LowPassButt_Type1_Pspice.net" 
 NetlistFile= "ACSweep.cir" 
 DataFile= "ACSweep.dat" 
@@ -49,7 +49,7 @@ Notes=
 +2 "" 
 @End Analysis
 @Analysis: 4 0
-+0 0 1 0 0 0 2 0 0 0 1
++1 0 1 0 0 0 2 0 0 0 1
 +0 "" 
 +1 "" 
 +2 "" 

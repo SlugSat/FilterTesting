@@ -1,0 +1,83 @@
+Starting advanced analysis session
+*****************************************
+
+******* Analysis Started On:Fri Feb 24 15:37:35 2017
+
+Advance Analyses Project File Name : C:/Users/mcarberry/Documents/GitHub/FilterTesting/cadence/FilterTests/FilterTests-PSpiceFiles/LowPassButt_Type2_Pspice/LowPassButt_Type2_Pspice.$ap
+
+
+Processing analysis specifications
+
+Listing Profiles:
+ - bodeplot.sim
+
+
+Simulation Run: 0 (Nominal Run)
+Param : C1.VALUE  (C_C1.VALUE) = 109.8pF
+Param : L2.VALUE  (L_L2.VALUE) = 0.549uH
+Param : C3.VALUE  (C_C3.VALUE) = 109.8pF
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 28.98329824503509meg
+Nominal run completed
+Sensitivity runs underway.....
+
+
+Simulation Run: 1
+Param : C1.VALUE  (C_C1.VALUE) = 111.99600000000001p
+Param : L2.VALUE  (L_L2.VALUE) = 0.549uH
+Param : C3.VALUE  (C_C3.VALUE) = 109.8pF
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 28.88415410909644meg
+Sensitivity run: 1 of 3 completed
+
+
+Simulation Run: 2
+Param : C1.VALUE  (C_C1.VALUE) = 109.8pF
+Param : L2.VALUE  (L_L2.VALUE) = 559.98000000000013n
+Param : C3.VALUE  (C_C3.VALUE) = 109.8pF
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 28.60850957650342meg
+Sensitivity run: 2 of 3 completed
+
+
+Simulation Run: 3
+Param : C1.VALUE  (C_C1.VALUE) = 109.8pF
+Param : L2.VALUE  (L_L2.VALUE) = 0.549uH
+Param : C3.VALUE  (C_C3.VALUE) = 111.99600000000001p
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 28.88415410909644meg
+Sensitivity run: 3 of 3 completed
+Sensitivity runs completed
+Sensitivity bar lengths computed
+Worstcase runs underway.....
+
+
+Simulation Run: 4
+Param : C1.VALUE  (C_C1.VALUE) = 115.29000000000001p
+Param : L2.VALUE  (L_L2.VALUE) = 576.45000000000005n
+Param : C3.VALUE  (C_C3.VALUE) = 115.29000000000001p
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 27.60841776596269meg
+Minimum run: 1 of 1 completed
+Sensitivity minimum runs completed
+
+
+Simulation Run: 5
+Param : C1.VALUE  (C_C1.VALUE) = 104.31000000000000p
+Param : L2.VALUE  (L_L2.VALUE) = 521.54999999999995n
+Param : C3.VALUE  (C_C3.VALUE) = 104.31000000000000p
+
+Specs : Cutoff_Lowpass_3dB(V(R4:2)/V(V1:+)) = 30.50418241714754meg
+Maximum run: 1 of 1 completed
+Sensitivity maximum runs completed
+-------------------- Sensitivity analysis completed --------------------
+Fri Feb 24 15:37:37 2017
+
+Analysis complete
+
+******* Analysis stopped at:Fri Feb 24 15:37:37 2017
+
+Analysis time: 00:00:02
+
+
+End of advanced analysis session

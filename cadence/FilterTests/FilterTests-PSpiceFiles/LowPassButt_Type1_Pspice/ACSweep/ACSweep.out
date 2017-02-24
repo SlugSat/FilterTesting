@@ -1,7 +1,8 @@
-
-**** 02/22/17 10:45:48 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** Analysis Setup ****
 
- ** Profile: "LowpassButterworth-ACSweep"  [ c:\users\mcarberry\documents\github\filter_testing\cadence\filtertests\filtertests-PSpic
+**** 02/24/17 15:33:56 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "LowPassButt_Type1_Pspice-ACSweep"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTests-
 
 
  ****     CIRCUIT DESCRIPTION
@@ -25,64 +26,55 @@
 .AC DEC 1000 10Meg 100Meg
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
-.INC "..\LowpassButterworth.net" 
+.INC "..\LowPassButt_Type1_Pspice.net" 
 
 
 
-**** INCLUDING LowpassButterworth.net ****
+**** INCLUDING LowPassButt_Type1_Pspice.net ****
 * source FILTERTESTS
-L_L3         N01644 N01508  0.274uH  
-L_L1         N01508 N014601  0.274uH  
-C_C2         0 N01508  219.5pF  TC=0,0 
 R_R0         N01702 N014601  50 TC=0,0 
 R_R4         0 N01644  50 TC=0,0 
+C_C2         0 N01508 C_C2 219.5pF  TC=0,0 
+.model        C_C2 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
 V_V1         N01702 0 DC 0Vdc AC 1Vac 
+L_L3         N01644 N01508 L_L3 0.274uH  
+.model        l_L3 IND L=1 DEV=5% TC1=0 TC2=0 IL1=0 IL2=0
+L_L1         N01508 N014601 L_L1 0.274uH  
+.model        l_L1 IND L=1 DEV=5% TC1=0 TC2=0 IL1=0 IL2=0
 
 **** RESUMING ACSweep.cir ****
 .END
 
-**** 02/22/17 10:45:48 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 02/24/17 15:33:56 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "LowpassButterworth-ACSweep"  [ c:\users\mcarberry\documents\github\filter_testing\cadence\filtertests\filtertests-PSpic
-
-
- ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+ ** Profile: "LowPassButt_Type1_Pspice-ACSweep"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTests-
 
 
-******************************************************************************
-
-
-
- NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
-
-
-(N01508)    0.0000 (N01644)    0.0000 (N01702)    0.0000 (N014601)    0.0000    
-
-
-
-
-    VOLTAGE SOURCE CURRENTS
-    NAME         CURRENT
-
-    V_V1         0.000E+00
-
-    TOTAL POWER DISSIPATION   0.00E+00  WATTS
-
-
-
-          JOB CONCLUDED
-
-**** 02/22/17 10:45:48 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
-
- ** Profile: "LowpassButterworth-ACSweep"  [ c:\users\mcarberry\documents\github\filter_testing\cadence\filtertests\filtertests-PSpic
-
-
- ****     JOB STATISTICS SUMMARY
+ ****     Capacitor MODEL PARAMETERS
 
 
 ******************************************************************************
 
 
 
-  Total job time (using Solver 1)   =         .02
+
+               C_C2            
+           C    1            
+
 
+**** 02/24/17 15:33:56 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "LowPassButt_Type1_Pspice-ACSweep"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTests-
+
+
+ ****     Inductor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               L_L3            L_L1            
+           L    1               1            
+

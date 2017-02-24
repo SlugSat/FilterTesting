@@ -1,0 +1,609 @@
+**** Analysis Setup ****
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "BodePlot.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\mcarberry\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1000 10Meg 100Meg
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\BandPassButt_Type1_Pspice.net" 
+
+
+
+**** INCLUDING BandPassButt_Type1_Pspice.net ****
+* source FILTERTESTS
+V_V1         N02229 0 DC 0Vdc AC 1Vac 
+C_C3         N02285 N026650 C_C3 5.30pF  TC=0,0 
+.model        C_C3 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+L_L3         N02751 0 L_L3 6.63nH  
+.model        l_L3 IND L=1 DEV=5% TC1=0 TC2=0 IL1=0 IL2=0
+R_R0         N02229 N022170  50 TC=0,0 
+R_R4         0 N02285  50 TC=0,0 
+C_C1         N02751 N025100 C_C1 5.30pF  TC=0,0 
+.model        C_C1 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+C_C2         0 N02751 C_C2 4.55nF  TC=0,0 
+.model        C_C2 CAP C=1 DEV=5% TC1=0 TC2=0 VC1=0 VC2=0
+L_L1         N025100 N022170 L_L1 5.68uH  
+.model        l_L1 IND L=1 DEV=5% TC1=0 TC2=0 IL1=0 IL2=0
+L_L4         N026650 N02751 L_L4 5.68uH  
+.model        l_L4 IND L=1 DEV=5% TC1=0 TC2=0 IL1=0 IL2=0
+
+**** RESUMING BodePlot.cir ****
+.END
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     Capacitor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               C_C3            C_C1            C_C2            
+           C    1               1               1            
+
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     Inductor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               L_L3            L_L1            L_L4            
+           L    1               1               1            
+
+**** Param: C_C3.VALUE = 5.30pF
+**** Param: L_L3.VALUE = 6.63nH
+**** Param: C_C1.VALUE = 5.30pF
+**** Param: C_C2.VALUE = 4.55nF
+**** Param: L_L1.VALUE = 5.68uH
+**** Param: L_L4.VALUE = 5.68uH
+
+**** Command: doALL
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     Sensitivity nominal run          
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02229)    0.0000 (N02285)    0.0000 (N02751)    0.0000 (N022170)    0.0000    
+
+(N025100)    0.0000                   (N026650)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+**** Param: C_C3.VALUE = 5.40600000000000p
+**** Param: L_L3.VALUE = 6.63nH
+**** Param: C_C1.VALUE = 5.30pF
+**** Param: C_C2.VALUE = 4.55nF
+**** Param: L_L1.VALUE = 5.68uH
+**** Param: L_L4.VALUE = 5.68uH
+
+**** Command: doALL
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     Sensitivity run 1                
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02229)    0.0000 (N02285)    0.0000 (N02751)    0.0000 (N022170)    0.0000    
+
+(N025100)    0.0000                   (N026650)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+**** Param: C_C3.VALUE = 5.30pF
+**** Param: L_L3.VALUE = 6.76260000000000n
+**** Param: C_C1.VALUE = 5.30pF
+**** Param: C_C2.VALUE = 4.55nF
+**** Param: L_L1.VALUE = 5.68uH
+**** Param: L_L4.VALUE = 5.68uH
+
+**** Command: doALL
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     Sensitivity run 2                
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02229)    0.0000 (N02285)    0.0000 (N02751)    0.0000 (N022170)    0.0000    
+
+(N025100)    0.0000                   (N026650)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+**** Param: C_C3.VALUE = 5.30pF
+**** Param: L_L3.VALUE = 6.63nH
+**** Param: C_C1.VALUE = 5.40600000000000p
+**** Param: C_C2.VALUE = 4.55nF
+**** Param: L_L1.VALUE = 5.68uH
+**** Param: L_L4.VALUE = 5.68uH
+
+**** Command: doALL
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     Sensitivity run 3                
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02229)    0.0000 (N02285)    0.0000 (N02751)    0.0000 (N022170)    0.0000    
+
+(N025100)    0.0000                   (N026650)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+**** Param: C_C3.VALUE = 5.30pF
+**** Param: L_L3.VALUE = 6.63nH
+**** Param: C_C1.VALUE = 5.30pF
+**** Param: C_C2.VALUE = 4.64100000000000n
+**** Param: L_L1.VALUE = 5.68uH
+**** Param: L_L4.VALUE = 5.68uH
+
+**** Command: doALL
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     Sensitivity run 4                
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02229)    0.0000 (N02285)    0.0000 (N02751)    0.0000 (N022170)    0.0000    
+
+(N025100)    0.0000                   (N026650)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+**** Param: C_C3.VALUE = 5.30pF
+**** Param: L_L3.VALUE = 6.63nH
+**** Param: C_C1.VALUE = 5.30pF
+**** Param: C_C2.VALUE = 4.55nF
+**** Param: L_L1.VALUE = 5.79360000000000u
+**** Param: L_L4.VALUE = 5.68uH
+
+**** Command: doALL
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     Sensitivity run 5                
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02229)    0.0000 (N02285)    0.0000 (N02751)    0.0000 (N022170)    0.0000    
+
+(N025100)    0.0000                   (N026650)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+**** Param: C_C3.VALUE = 5.30pF
+**** Param: L_L3.VALUE = 6.63nH
+**** Param: C_C1.VALUE = 5.30pF
+**** Param: C_C2.VALUE = 4.55nF
+**** Param: L_L1.VALUE = 5.68uH
+**** Param: L_L4.VALUE = 5.79360000000000u
+
+**** Command: doALL
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     Sensitivity run 6                
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02229)    0.0000 (N02285)    0.0000 (N02751)    0.0000 (N022170)    0.0000    
+
+(N025100)    0.0000                   (N026650)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+**** Param: C_C3.VALUE = 5.56500000000000p
+**** Param: L_L3.VALUE = 6.96150000000000n
+**** Param: C_C1.VALUE = 5.56500000000000p
+**** Param: C_C2.VALUE = 4.77750000000000n
+**** Param: L_L1.VALUE = 5.96400000000000u
+**** Param: L_L4.VALUE = 5.96400000000000u
+
+**** Command: doALL
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     Sensitivity minimum run 1        
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02229)    0.0000 (N02285)    0.0000 (N02751)    0.0000 (N022170)    0.0000    
+
+(N025100)    0.0000                   (N026650)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+**** Param: C_C3.VALUE = 5.56500000000000p
+**** Param: L_L3.VALUE = 6.96150000000000n
+**** Param: C_C1.VALUE = 5.56500000000000p
+**** Param: C_C2.VALUE = 4.77750000000000n
+**** Param: L_L1.VALUE = 5.96400000000000u
+**** Param: L_L4.VALUE = 5.96400000000000u
+
+**** Command: doALL
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     Sensitivity minimum run 2        
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02229)    0.0000 (N02285)    0.0000 (N02751)    0.0000 (N022170)    0.0000    
+
+(N025100)    0.0000                   (N026650)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+**** Param: C_C3.VALUE = 5.56500000000000p
+**** Param: L_L3.VALUE = 6.29850000000000n
+**** Param: C_C1.VALUE = 5.56500000000000p
+**** Param: C_C2.VALUE = 4.77750000000000n
+**** Param: L_L1.VALUE = 5.96400000000000u
+**** Param: L_L4.VALUE = 5.96400000000000u
+
+**** Command: doALL
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     Sensitivity minimum run 3        
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02229)    0.0000 (N02285)    0.0000 (N02751)    0.0000 (N022170)    0.0000    
+
+(N025100)    0.0000                   (N026650)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+**** Param: C_C3.VALUE = 5.03500000000000p
+**** Param: L_L3.VALUE = 6.29850000000000n
+**** Param: C_C1.VALUE = 5.03500000000000p
+**** Param: C_C2.VALUE = 4.32250000000000n
+**** Param: L_L1.VALUE = 5.39600000000000u
+**** Param: L_L4.VALUE = 5.39600000000000u
+
+**** Command: doALL
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     Sensitivity maximum run 1        
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02229)    0.0000 (N02285)    0.0000 (N02751)    0.0000 (N022170)    0.0000    
+
+(N025100)    0.0000                   (N026650)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+**** Param: C_C3.VALUE = 5.03500000000000p
+**** Param: L_L3.VALUE = 6.29850000000000n
+**** Param: C_C1.VALUE = 5.03500000000000p
+**** Param: C_C2.VALUE = 4.32250000000000n
+**** Param: L_L1.VALUE = 5.39600000000000u
+**** Param: L_L4.VALUE = 5.39600000000000u
+
+**** Command: doALL
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     Sensitivity maximum run 2        
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02229)    0.0000 (N02285)    0.0000 (N02751)    0.0000 (N022170)    0.0000    
+
+(N025100)    0.0000                   (N026650)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+**** Param: C_C3.VALUE = 5.03500000000000p
+**** Param: L_L3.VALUE = 6.96150000000000n
+**** Param: C_C1.VALUE = 5.03500000000000p
+**** Param: C_C2.VALUE = 4.32250000000000n
+**** Param: L_L1.VALUE = 5.39600000000000u
+**** Param: L_L4.VALUE = 5.39600000000000u
+
+**** Command: doALL
+
+**** 02/24/17 15:39:30 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "BandPassButt_Type1_Pspice-BodePlot"  [ C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\FilterTests\FilterTest
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     Sensitivity maximum run 3        
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02229)    0.0000 (N02285)    0.0000 (N02751)    0.0000 (N022170)    0.0000    
+
+(N025100)    0.0000                   (N026650)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** Command: FINISH
+
