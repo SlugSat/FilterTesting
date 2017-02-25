@@ -1,0 +1,64 @@
+******************************************************************************
+*                                  i_guess                                   *
+*                                                                            *
+*                 All  Rights  Reserved.  Licensed  Software.                *
+*                 Confidential and proprietary information which             *
+*                 is the property of Cadence Design Systems, Inc.            *
+*                      Start Run: Fri Feb 24 16:01:59 2017                   *
+******************************************************************************
+Loading rule file 'C:\Cadence\SPB_17.2\share\pcb\assembly\dfa_init.env' ...
+Loading rule file 'C:\Cadence\SPB_17.2\share\pcb\assembly\dfa_allegro.env' ...
+Loading rule file 'C:\Cadence\SPB_17.2\share\pcb\assembly\component_clearance_audit.rle' ...
+Loading rule file 'C:\Cadence\SPB_17.2\share\pcb\assembly\component_orientation_layer_audit.rle' ...
+Loading rule file 'C:\Cadence\SPB_17.2\share\pcb\assembly\hole_audit.rle' ...
+Loading rule file 'C:\Cadence\SPB_17.2\share\pcb\assembly\lead_span_audit.rle' ...
+Loading rule file 'C:\Cadence\SPB_17.2\share\pcb\assembly\test_point_audit.rle' ...
+****************************************************************************
+Design Name: C:/Users/mcarberry/Documents/GitHub/FilterTesting/cadence/Bandpass_Butterworth/pcb/BandPassButterworthTypeI.brd
+Rules Checked:  
+               component_clearance_audit
+               component_orientation_layer_audit
+               lead_span_audit
+               hole_audit
+               test_point_audit
+
+****************************************************************************
+
+
+Initializing Environment ... 
+
+Checking design 'C:/Users/mcarberry/Documents/GitHub/FilterTesting/cadence/Bandpass_Butterworth/pcb/BandPassButterworthTypeI.brd' ...
+
+
+  Checking component Objects ...
+ Rules checked for 10% of objects in the design scope
+ Rules checked for 20% of objects in the design scope
+ Rules checked for 30% of objects in the design scope
+ Rules checked for 50% of objects in the design scope
+ Rules checked for 60% of objects in the design scope
+ Rules checked for 70% of objects in the design scope
+ Rules checked for 80% of objects in the design scope
+ Rules checked for 100% of objects in the design scope
+
+
+  Checking hole Objects ...
+ Rules checked for 10% of objects in the design scope
+ Rules checked for 20% of objects in the design scope
+ Rules checked for 30% of objects in the design scope
+ Rules checked for 40% of objects in the design scope
+ Rules checked for 50% of objects in the design scope
+ Rules checked for 60% of objects in the design scope
+ Rules checked for 70% of objects in the design scope
+ Rules checked for 80% of objects in the design scope
+ Rules checked for 90% of objects in the design scope
+ Rules checked for 100% of objects in the design scope
+
+2 ERROR(s)
+
+***********************************************************************************************
+Violations: ERROR = 2    
+***********************************************************************************************
+**************************************************
+*      Stop Run: Fri Feb 24 16:01:59 2017        *
+**************************************************
+

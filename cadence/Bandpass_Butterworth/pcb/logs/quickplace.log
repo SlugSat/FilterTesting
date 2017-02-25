@@ -1,0 +1,27 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : BandPassButterworthTypeI.brd                  )
+(    Software Version : 17.2S002                                      )
+(    Date/Time        : Fri Feb 24 15:51:55 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  CR2 / COAX RECEPTACLE_MOLEX_SMA_COAX / MOLEX_SMA at (14008.0 11178.0)
+         Placed symbol:  CR1 / COAX RECEPTACLE_MOLEX_SMA_COAX / MOLEX_SMA at (14216.0 11178.0)
+         Placed symbol:  C3 / C_SMC0805_5.30PF / SMC0805 at (14465.0 11048.5)
+         Placed symbol:  C2 / C_SMC0805_4.55NF / SMC0805 at (14639.0 11048.5)
+         Placed symbol:  C1 / C_SMC0805_5.30PF / SMC0805 at (14813.0 11048.5)
+         Placed symbol:  L1 / L_SML0805_5.68UH / SML0805 at (14985.0 11051.0)
+         Placed symbol:  L4 / L_SML0805_5.68UH / SML0805 at (15149.0 11051.0)
+         Placed symbol:  L3 / L_SML0805_6.63NH / SML0805 at (15313.0 11051.0)
+
+
+Placed 8 of 8 applicable (8 total) symbols.
+
+-----------------------------------------------------------------------
+

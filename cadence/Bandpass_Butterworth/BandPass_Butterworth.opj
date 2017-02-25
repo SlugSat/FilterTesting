@@ -35,6 +35,18 @@
       (DisplayName "pstxprt.dat"))
     (File ".\bandpass_butterworth\pcb\pstchip.dat"
       (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File
+       "c:\users\mcarberry\documents\github\filter_testing\cadence\bandpass_butterworth\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File
+       "c:\users\mcarberry\documents\github\filter_testing\cadence\bandpass_butterworth\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File
+       "c:\users\mcarberry\documents\github\filter_testing\cadence\bandpass_butterworth\pcb\pstchip.dat"
+      (Type "Report")
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector)
@@ -42,30 +54,26 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\bandpass_butterworth.dsn")
-      (Path "Design Resources"
-         "C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\bandpass_butterworth.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\bandpass_butterworth.dsn")
+      (Path "Design Resources" ".\bandpass_butterworth.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources"
-         "C:\Users\mcarberry\Documents\GitHub\FilterTesting\cadence\bandpass_butterworth.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources" ".\bandpass_butterworth.dsn" "SCHEMATIC1"
+         "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 336"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 336"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1413 78 409")
-        (Scroll "-42 0")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1387 52 383")
+        (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
-         "C:\USERS\MCARBERRY\DOCUMENTS\GITHUB\FILTERTESTING\CADENCE\BANDPASS_BUTTERWORTH.DSN")
+         "C:\USERS\MCARBERRY\DOCUMENTS\GITHUB\FILTERTESTING\CADENCE\BANDPASS_BUTTERWORTH\BANDPASS_BUTTERWORTH.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (MPSSessionName "mcarberry"))

@@ -1,0 +1,47 @@
+(marker_file
+ (version 1.0)
+ (markers
+  (
+   (tool "DFA")
+   (class "DFA")
+   (severity 40)
+   (error_num 1)
+   (short_msg "ERROR : Component has wrong orientation:   "   )
+   (long_msg "ERROR (component_orientation_layer_audit) 
+Component           :'C2' 
+Orientation         : 270 
+Allowed Orientation : 0 
+Constraint name     : Default  "   )
+   (location
+    (
+     (object_kind "component")
+     (canonical_name "C2")
+     (parent_canonical_name "C2")
+     (drawing_name "C2")
+    )
+
+   )
+  )
+  (
+   (tool "DFA")
+   (class "DFA")
+   (severity 40)
+   (error_num 2)
+   (short_msg "ERROR : Component has wrong orientation:   "   )
+   (long_msg "ERROR (component_orientation_layer_audit) 
+Component           :'L3' 
+Orientation         : 90 
+Allowed Orientation : 0 
+Constraint name     : Default  "   )
+   (location
+    (
+     (object_kind "component")
+     (canonical_name "L3")
+     (parent_canonical_name "L3")
+     (drawing_name "L3")
+    )
+
+   )
+  )
+ )
+)

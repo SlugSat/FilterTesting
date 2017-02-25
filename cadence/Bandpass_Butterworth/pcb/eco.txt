@@ -1,0 +1,92 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../cadence/Bandpass_Butterworth/pcb/BandPassButterworthTypeI.brd         |
+|                                                    Fri Feb 24 15:50:55 2017  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  0            pins ADDED TO this new net
+                                 C2.1           CR1.1          CR1.3          
+                                 CR2.1          CR2.3          L3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03452       pins ADDED TO this new net
+                                 CR1.2          L1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03476       pins ADDED TO this new net
+                                 C1.1           C2.2           L3.1           
+                                 L4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03518       pins ADDED TO this new net
+                                 C3.1           CR2.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N034101      pins ADDED TO this new net
+                                 C1.2           L1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N034261      pins ADDED TO this new net
+                                 C3.2           L4.1           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../cadence/Bandpass_Butterworth/pcb/BandPassButterworthTypeI.brd         |
+|                                                    Fri Feb 24 15:50:55 2017  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ COAX RECEPTACLE_MOLEX_SMA_COAX
+ C_SMC0805_4.55NF
+ C_SMC0805_5.30PF
+ L_SML0805_5.68UH
+ L_SML0805_6.63NH
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../cadence/Bandpass_Butterworth/pcb/BandPassButterworthTypeI.brd         |
+|                                                    Fri Feb 24 15:50:55 2017  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_SMC0805_5.30PF      
+ C2                  C_SMC0805_4.55NF      
+ C3                  C_SMC0805_5.30PF      
+ CR1                 COAX RECEPTACLE_MOLEX_SMA_COAX 
+ CR2                 COAX RECEPTACLE_MOLEX_SMA_COAX 
+ L1                  L_SML0805_5.68UH      
+ L3                  L_SML0805_6.63NH      
+ L4                  L_SML0805_5.68UH      
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../cadence/Bandpass_Butterworth/pcb/BandPassButterworthTypeI.brd         |
+|                                                    Fri Feb 24 15:50:55 2017  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ CR1.3                          PRIM_FILE      .\pstchip.dat
+ CR2.3                          PRIM_FILE      .\pstchip.dat
+ L1.2                           PRIM_FILE      .\pstchip.dat
+ L3.2                           PRIM_FILE      .\pstchip.dat
+ L4.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      18                                        |
+|       Comp definitions added:       5                                        |
+|       Components added      :       8                                        |
+|       Slot property added   :       8                                        |
+|                                                                              |
+|   Total ECO changes reported:      39                                        |
+|------------------------------------------------------------------------------|
